@@ -3,39 +3,12 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Anton", sans-serif;
+	font-size: 40px;
+	color: #ce1212;
 }
 
 .container {
 	text-align: center;
-}
-
-.card {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	background: url(images/imagem.jpeg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 900px;
-}
-
-.card::before {
-	position: absolute;
-	content: " ";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.text {
-	font-size: 60px;
-	color: white;
-}
-
-.text i {
-	color: #ce0100;
 }
 
 .myButton {
